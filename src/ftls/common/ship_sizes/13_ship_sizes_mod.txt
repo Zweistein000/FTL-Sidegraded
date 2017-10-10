@@ -1,0 +1,48 @@
+#reloadable with 'reload stats'
+# This file is where you start when you want to configure something new, then go to sections
+
+@civilian_ships_combat_speed = 0.5
+@corvette_combat_speed = 1.75 	# assault ships
+@corvette_combat_rotation = 0.08
+@corvette_collision_radius = 2.0
+@corvette_formation_priority = 3
+
+@destroyer_combat_speed = 1.50	 # picket ships
+@destroyer_combat_rotation = 0.05
+@destroyer_collision_radius = 2.5
+@destroyer_formation_priority = 2
+
+@cruiser_combat_speed = 1.25	 # ships of the line
+@cruiser_combat_rotation = 0.035
+@cruiser_collision_radius = 3
+@cruiser_formation_priority = 1
+
+@battleship_combat_speed = 0.75	
+@battleship_combat_rotation = 0.025
+@battleship_collision_radius = 3
+@battleship_formation_priority = 4
+
+@build_block_radius_none = 0
+@build_block_radius_civilian = 20
+@build_block_radius_military = 200
+
+wormhole_station = {
+	max_speed = 0.0
+	acceleration = 0.0
+	rotation_speed = 0.0
+	modifier = {
+		ship_evasion_mult = -1
+	}
+	max_hitpoints = 2500
+	num_target_locators = 0
+	is_space_station = yes
+	build_block_radius = @build_block_radius_civilian
+	is_civilian = yes
+	cost = 300
+	components_add_to_cost = no
+	
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	class = shipclass_wormhole_station
+	is_designable = no
+}
+

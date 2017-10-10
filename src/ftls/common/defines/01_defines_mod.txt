@@ -1,0 +1,37 @@
+﻿	NGameplay = {
+		HYPERLANE_GEN_REMOVE_PERC = 0.20			# Try to remove 20% of the longest edges
+		HYPERLANE_GEN_REMOVED_MAX_DIST = 30 		# Don't remove an edge if you have to travel more than 30 stars to reach the same position
+		HYPERLANE_GEN_REMOVE_TOO_MANY_EDGES = 4	# Remove edges if having 4 or more edges
+		WORMHOLE_OPEN_SPEED = 1.5					# Wormhole opening speed. Wormhole capacity is incremented with this every micro update
+		WORMHOLES_PER_STATION = 1					# How many wormholes a station can open at a time
+		WORMHOLE_BASE_CAPACITY_REQUIREMENT = 200		# Required wormhole capacity for a jump is base(this one!) + fleet size (200)
+		WORMHOLE_CAPREQ_OUTSIDE_BORDERS = 0.00		# Percentage malus when opening wormholes to systems outside owner borders, was 0.3
+		FTL_TRAIL_DAYS = 360						# FLT Trail lifetime in days
+ 
+		FTL_RANGE_WARP 			= 60				# Base warp range
+		FTL_RANGE_WORMHOLE 		= 80				# Wormhole range
+		FTL_RANGE_JUMPDRIVE		= 100				# Jumpdrive range
+	}
+
+	NShip = {	
+		FLEET_BASE_FORMATION_SCALE			= 2.0
+		FLEET_BASE_FORMATION_DIV			= 10
+		FLEET_FORMATION_WARP_MULT 			= 6.0
+		FLEET_SIZE_FORMATION_WARP_DIV		= 3
+
+		WARP_WINDUP 						= 6.0 	# Distance multiplier to warp windup in microupdates
+		WARP_WINDDOWN 						= 0.0 	# Distance multiplier to warp winddown in microupdates
+		WARP_WINDDOWN_OUTSIDE_BORDER		= 0.0	# How much more winddown time is there for systems which are 100% away from friendly territory
+		WARP_INTERSTELLAR_TRAVEL_SPEED 		= 0.35 # In micro updates ( 10/day )
+
+		HYPERLANE_WINDUP 					= 50	# In micro updates ( 10/day )
+		HYPERLANE_WINDDOWN					= 100	# In micro updates
+		HYPERLANE_WINDUP_OUTSIDE_BORDER		= 0.0	# How much more windup time is there for systems which are 100% away from friendly territory
+		JUMPDRIVE_WINDUP					= 150	# In micro updates ( 10/day )
+		JUMPDRIVE_WINDDOWN					= 50	# In micro updates ( 10/day )
+		HYPERDRIVE_INTERSTELLAR_TRAVEL_SPEED = 2.0 # In micro updates ( 10/day )
+	}
+	
+		NEconomy = {
+		WORMHOLE_STATION_MAINTENANCE 		= 1.00		# Monthly wormhole station maintenance
+	}
