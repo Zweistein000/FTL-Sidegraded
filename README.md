@@ -59,4 +59,6 @@ Other changes:
  - Replaced the english localization file to feature the description for Hyperdrive cooldown (I will look into injecting the text rahter than outright replacing the localization file).
 
 OTHER NOTES:
+
 Disclaimer: This mod has recieved limited testing. More feedback on the FTL balance is always appreciated. 
+If you like the mod but feel like any of my changes are unfair, unfounded, silly or you genuinely don't like them leave me a comment. Also feel free to fork the mod and make your own changes. Link to steam workshop: 
