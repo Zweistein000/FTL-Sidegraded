@@ -7,6 +7,10 @@ Purpose of this mod is to both rebalance FTL and make it more interesting mechan
 
 CHANGELOG:
 
+1.0.1.
+Localization:
+ - Mod now injects its Hyperlane cooldown text into l_english, rather than replacing it outright. Thus the mod no longer replaces any vanilla files.
+
 1.0.0.
 Wormhole drive:
  - Now requires antimater energy to appear. It is considered a rare tech. 
