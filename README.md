@@ -22,7 +22,7 @@ Wormhole drive:
  
 Hyperdrive:
  - Spool-up time reduced to 5 days from 15.
- - Cooldown increased to 10 days form 0. 
+ - Cooldown increased to 10 days from 0. 
  - FTL travel speed increased to 2 per tick from 1 (to make it still better than warp).
  - Energy cost recuded to 2.5/5/7.5 for the respective level of hyperdrive.
  - Mineral cost increased to 5/10/15 for the respective level of hyperdrive. 
