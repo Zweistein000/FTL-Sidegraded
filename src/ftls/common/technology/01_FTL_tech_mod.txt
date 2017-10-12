@@ -44,7 +44,7 @@
 # ##################
 
 tech_wormhole_generation_1  = {
-	cost = @tier3cost4
+	cost = @tier3cost1
 	area = physics
 	tier = 3
 	category = { field_manipulation }
@@ -301,13 +301,13 @@ tech_hyper_drive_3 = {
 }
 
 tech_warp_drive_1 = {
-	cost = @tier2cost4
+	cost = @tier2cost1
 	area = physics
 	tier = 1
 	category = { field_manipulation }
 	ai_update_type = all
 	is_reverse_engineerable = yes	
-	weight = @tier2weight1
+	weight = @tier2weight4
 	is_rare = yes
 	is_dangerous = no
 	prerequisites = { "tech_fusion_power" }
