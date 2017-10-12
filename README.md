@@ -6,6 +6,12 @@ PURPOSE
 Purpose of this mod is to both rebalance FTL and make it more interesting mechanic. This mode is mean to be played with Hyperlane-only enabled so not all FTL are avaiable at game start. You will be able to research and reverse engineer all non-psionic FTL drives. Each of the FTL drives functions differently and will give you a specific advantage, as well as a disadvantage which keep the Hyperlane tech competitive. 
 
 CHANGELOG:
+1.0.2
+Warp:
+- Fixed inverted cost and weight. Warp drive should now be cheaper, but less common. 
+
+Wormhole:
+- Fixed inverted cost and weight. Wormhole drive should now be cheaper, but less common. 
 
 1.0.1.
 Localization:
