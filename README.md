@@ -6,7 +6,22 @@ PURPOSE
 Purpose of this mod is to both rebalance FTL and make it more interesting mechanic. This mode is mean to be played with Hyperlane-only enabled so not all FTL are avaiable at game start. You will be able to research and reverse engineer all non-psionic FTL drives. Each of the FTL drives functions differently and will give you a specific advantage, as well as a disadvantage which keep the Hyperlane tech competitive. 
 
 CHANGELOG:
-1.0.2
+
+1.1.0.
+Wormhole:
+ - Rebalanced wormhole drive with large fleets and late-game in mind. Base wormhole generation time is now 20 day. 10k fleet gnerates a wormhole in 22 days. 100k Fleet generates one in 31 Days. 200k Generates one in 42 days. 
+ - Increased range to 100 from 80. 
+ 
+ Jump drive:
+  - Range increased to 140 from 100 to balance out the energy and mineral increase.
+ 
+ Psi jump drive: 
+  - Played around with modifiers to get whole numbers rahter than decimals. Range penalty increased to 25% form 20% (Range is now exactly 105). Wind-down time penalty increased to 25% from 20% (Wind-down is now exactly 6 days).
+  
+ Localization:
+  - Added localization support for other languages, but the text is in English. I'm sorry, but I'm not a polyglot. 
+  
+1.0.2.
 Warp:
 - Fixed inverted cost and weight. Warp drive should now be cheaper, but less common. 
 
@@ -66,7 +81,7 @@ FTL was changed the following way:
 - Hyperdrive ramins mostly the same. Cooldown time is increased, while charge up time is reduced. The reasoning behid this is that Hyperdrives are only activated to breach the barrier between normal space and hyperspace. The hyperlanes themselves are empty and thus no special FTL plotting is needed. Due to the high speed of Hyperlane travel, the hyperdrive gets activated twice in quick succession which drains the energy reserves of the vessel requiring a recharge time upon arrival. There will be no additional charge-up time based on the distance from friendly territory. Hyperdive is already a very interesting drive as well as the best starting FTL as the hyper-lanes create an interesting topography of the galaxy, is decently fast, useful for both exploration and combat but it does come with its own set of drawbacks, mainly freedom of movement. 
 - Warp is a rare-tech available after fusion has been researched. Warp speed will remian the same but it's cooldown and warm-up time are inverted and recuded. Going to warp takes more time than breaching the hyperlane space and the ship must both expend energy to bend spece-time as well as perform calculations in order to avoid a collisions with phyiscal objects as the vessel travels through normal space. Warp thus havs no cooldown, but a decently long spool-up time. This should buff the warp as an offensive-first strike drive but it should still lose in a race to Hyperlanes. The main advantage of warp is it's relative freedom to move about the galaxy, ignoring the topogaphy that was created with hyperdrive. As the warp vessels are required to sustain their own warp bubble for the duration of the warp flight the energy requirements of a warp drive are slighly higher than that of a Hyperdrive. Warp remains the best FTL drive for exploring the galaxy early and as such has a higher chance of appearing for materialists and even higher for fanatic materialists. 
 - Wormhole drive is a mid-late game rare tech that fills the void between warp and hyperdrive, but comes with its own set of advantages and drawbacks. Because wormholes are generted with wormhole station the ships using this method of FTL require no onboard FTL drives freeing up energy for other subsystems. The wormhole stations themselves are expensive and require a higher energy upkeep in order to function compered to vanilla wormhole stations. They have a decent range in which they allow the ships to move about near instantaneously and freely but the ships cannot traverse outside the range limits of the stations. The wornhole drive  remains the best drive to use for hit-and-run skrimishes but offers a unique disadvantage in the form of wormhole station which, if destroyed will trap fleets behind enemy lines, as well as it's relatively short range which limits offensive action. Wormhole drives are very string defensively but are somewhat more challenging to fully utilise offensively. As such being pacifist, fanatic pacifist or inwards perfection (isolationist) increases the change of the tech appearing.
- - Jump drive remains almost untouched. Its main disadvantage remains its ability to trigger the Unbidden crisis, but otherwise reimains a drive with a short cooldown, decent spoolup and instant travel between jump locations. Jump drive did recieve two additional drawbacks, which are a high power consuption and high mineral cost. Phasing out of our dimension and poping back in requires large amounts of energy. This also means that if a crisis has already been triggered the jump drive still retains some of its disadvantages. 
+ - Jump drive remains the best FTL drive in the game. Its main disadvantage remains its ability to trigger the Unbidden crisis, but otherwise reimains a drive with a short cooldown, decent spoolup and instant travel between jump locations. Jump drive did recieve two additional drawbacks, which are a high power consuption and high mineral cost. Phasing out of our dimension and poping back in requires large amounts of energy. This also means that if a crisis has already been triggered the jump drive still retains some of its disadvantages. 
 - PSI jump drive is no longer jump drive MK2, but is rather a conterpart to the jump drive. As PSI jumping only requires the minds of powerful psionsic individuals the ships utilising PSI jump drives do not require conventional FTL drives. This advantage comes with the drawback of reduced range, increased spool-up and wind-down when compared to regular Jump drives as jumping an entire ship requires great concentration and is strenous for the people involved. 
 
 NOTES:
