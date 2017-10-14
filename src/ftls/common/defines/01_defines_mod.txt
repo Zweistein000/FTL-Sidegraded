@@ -2,15 +2,15 @@
 		HYPERLANE_GEN_REMOVE_PERC = 0.20			# Try to remove 20% of the longest edges
 		HYPERLANE_GEN_REMOVED_MAX_DIST = 30 		# Don't remove an edge if you have to travel more than 30 stars to reach the same position
 		HYPERLANE_GEN_REMOVE_TOO_MANY_EDGES = 4	# Remove edges if having 4 or more edges
-		WORMHOLE_OPEN_SPEED = 1.5					# Wormhole opening speed. Wormhole capacity is incremented with this every micro update
+		WORMHOLE_OPEN_SPEED = 7.5					# Wormhole opening speed. Wormhole capacity is incremented with this every micro update
 		WORMHOLES_PER_STATION = 1					# How many wormholes a station can open at a time
-		WORMHOLE_BASE_CAPACITY_REQUIREMENT = 200		# Required wormhole capacity for a jump is base(this one!) + fleet size (200)
+		WORMHOLE_BASE_CAPACITY_REQUIREMENT = 1500		# Required wormhole capacity for a jump is base(this one!) + fleet size (200)
 		WORMHOLE_CAPREQ_OUTSIDE_BORDERS = 0.00		# Percentage malus when opening wormholes to systems outside owner borders, was 0.3
 		FTL_TRAIL_DAYS = 360						# FLT Trail lifetime in days
  
 		FTL_RANGE_WARP 			= 60				# Base warp range
-		FTL_RANGE_WORMHOLE 		= 80				# Wormhole range
-		FTL_RANGE_JUMPDRIVE		= 100				# Jumpdrive range
+		FTL_RANGE_WORMHOLE 		= 100				# Wormhole range
+		FTL_RANGE_JUMPDRIVE		= 140				# Jumpdrive range
 	}
 
 	NShip = {	

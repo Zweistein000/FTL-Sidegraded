@@ -1,0 +1,7 @@
+﻿l_german:
+ ####################################
+ # Missing Hyperlane Wind-Down tooltip
+ ####################################
+
+ FLEETORDER_MOVE_SINGLESHIP_WINDOWN_HYPERLANE:0 "Abklingzeit nach Hyperlane-Flug: $DAYS|Y0$ Tage übrig"
+ FLEETORDER_MOVE_SINGLESHIP_WINDOWN_HYPERLANE_EXT:0 "Abklingzeit nach Hyperlane-Flug from $SYSTEM|H$\nProgress: $CUR|Y0$/$COST|Y0$ ($DAYS|Y0$ Tage übrig)"

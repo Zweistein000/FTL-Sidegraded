@@ -216,9 +216,9 @@ utility_component_template = {
 	}
 	
 	ship_modifier = {
-		ship_ftl_jumpdrive_range_mult = -0.20
-		ship_windup_mult = 0.2
-		ship_winddown_mult = 0.2
+		ship_ftl_jumpdrive_range_mult = -0.25
+		ship_windup_mult = 0.20
+		ship_winddown_mult = 0.25
 	}
 
 	class_restriction = { shipclass_military shipclass_constructor shipclass_colonizer shipclass_science_ship shipclass_transport }
