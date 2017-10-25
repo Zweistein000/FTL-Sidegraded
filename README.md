@@ -6,7 +6,15 @@ PURPOSE
 Purpose of this mod is to both rebalance FTL and make it more interesting mechanic. This mode is mean to be played with Hyperlane-only enabled so not all FTL are avaiable at game start. You will be able to research and reverse engineer all non-psionic FTL drives. Each of the FTL drives functions differently and will give you a specific advantage, as well as a disadvantage which keep the Hyperlane tech competitive. 
 
 CHANGELOG:
+1.1.1.
+No FTL (except jump drives) can be salveaged anymore. This is to remove the instance of slaveaging warp drive 3 from space whales, probe events or space amoebas.
 
+Wormhole:
+ - Increased the likelyhood of appearing in tech tree
+ - Added a weigth modier bonus for hiveminds with subspace ephase civic. Since the hive mind is already aware of subspace, makes sens tat it will be more inclined to find a way to travel though it.
+
+Warp:
+ - Added a weigth modifer bonus for machine empires with Static Research Analysis. This is a research and exploration inclined AGI. It's kinda materialist but for machines. Makes sense for them to get an FTL that is better for exploration. 
 1.1.0.
 Wormhole:
  - Rebalanced wormhole drive with large fleets and late-game in mind. Base wormhole generation time is now 20 day. 10k fleet gnerates a wormhole in 22 days. 100k Fleet generates one in 31 Days. 200k Generates one in 42 days. 
@@ -70,10 +78,6 @@ PSI Jump drive
  - Spool-up time increased by 20% compared to jump drive.
  - Cool-down time increased by 20% compared to jump drive
  - Costs 0 minerals and 0 energy. 
-
-Other changes:
- - All FTL techs except PSI jump drive are reverse-engineerable. 
- - Replaced the english localization file to feature the description for Hyperdrive cooldown (I will look into injecting the text rahter than outright replacing the localization file).
 
 EXPLANATION
 
