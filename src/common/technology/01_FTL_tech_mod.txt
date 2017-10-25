@@ -51,9 +51,9 @@ tech_wormhole_generation_1  = {
 	ai_update_type = all
 	is_rare = yes
 	is_dangerous = no
-	weight = @tier3weight1
+	weight = @tier2weight4
 	prerequisites = { "tech_antimatter_power" }
-	is_reverse_engineerable = yes
+	is_reverse_engineerable = no
 	
 	weight_modifier = {
 		factor = 0.5
@@ -93,6 +93,10 @@ tech_wormhole_generation_1  = {
 				NOT { has_civic = civic_inwards_perfection }
 				}
 		}
+		modifier = {
+			factor = 1.50
+			has_civic = civic_hive_subspace_ephapse
+		}
 	}
 
 	ai_weight = {
@@ -120,12 +124,12 @@ tech_wormhole_generation_2  = {
 	tier = 2
 	category = { field_manipulation }
 	ai_update_type = all
-	is_reverse_engineerable = yes
+	is_reverse_engineerable = no
 	prerequisites = { "tech_wormhole_generation_1" }
 	weight = 0
 	
 	weight_modifier = {
-		factor = 1
+		factor = 0
 		modifier = {
 			factor = 0
 			OR = {
@@ -159,7 +163,7 @@ tech_wormhole_generation_3  = {
 	tier = 3
 	category = { field_manipulation }
 	ai_update_type = all
-	is_reverse_engineerable = yes	
+	is_reverse_engineerable = no	
 	prerequisites = { "tech_wormhole_generation_2" }
 	weight = 0
 	
@@ -228,7 +232,7 @@ tech_hyper_drive_2 = {
 	tier = 2
 	category = { particles }
 	ai_update_type = all
-	is_reverse_engineerable = yes
+	is_reverse_engineerable = no
 	prerequisites = { "tech_hyper_drive_1" }
 	weight = @tier2weight1
 	
@@ -267,7 +271,7 @@ tech_hyper_drive_3 = {
 	tier = 3
 	category = { particles }
 	ai_update_type = all
-	is_reverse_engineerable = yes
+	is_reverse_engineerable = no
 	prerequisites = { "tech_hyper_drive_2" }
 	weight = @tier3weight1
 	
@@ -306,7 +310,7 @@ tech_warp_drive_1 = {
 	tier = 1
 	category = { field_manipulation }
 	ai_update_type = all
-	is_reverse_engineerable = yes	
+	is_reverse_engineerable = no	
 	weight = @tier2weight4
 	is_rare = yes
 	is_dangerous = no
@@ -343,6 +347,10 @@ tech_warp_drive_1 = {
 			factor = 1.25
 			has_ethic = ethic_fanatic_materialist
 		}
+		modifier = {
+			factor = 1.50
+			has_ethic = civic_machine_predictive_analysis
+		}
 	}
 	
 	prereqfor_desc = {
@@ -370,7 +378,7 @@ tech_warp_drive_2 = {
 	tier = 2
 	category = { field_manipulation }
 	ai_update_type = all
-	is_reverse_engineerable = yes	
+	is_reverse_engineerable = no	
 	prerequisites = { "tech_warp_drive_1" }
 	weight = @tier2weight1
 	
@@ -389,6 +397,10 @@ tech_warp_drive_2 = {
 		modifier = {
 			factor = 1.25
 			has_ethic = ethic_fanatic_materialist
+		}
+		modifier = {
+			factor = 1.50
+			has_ethic = civic_machine_predictive_analysis
 		}
 	}
 	
@@ -417,7 +429,7 @@ tech_warp_drive_3 = {
 	tier = 3
 	category = { field_manipulation }
 	ai_update_type = all
-	is_reverse_engineerable = yes	
+	is_reverse_engineerable = no	
 	prerequisites = { "tech_warp_drive_2" }
 	weight = @tier3weight1
 	
@@ -436,6 +448,10 @@ tech_warp_drive_3 = {
 		modifier = {
 			factor = 1.25
 			has_ethic = ethic_fanatic_materialist
+		}
+		modifier = {
+			factor = 1.50
+			has_ethic = civic_machine_predictive_analysis
 		}		
 	}
 	
